@@ -31,8 +31,11 @@ aliases = {
   'pot': 's1',
   'printer': 's4',
   'pianolight': 's5',
-  'childroomlight': 's3'
+  'piano': 's5',
+  'childroomlight': 's3',
+  'tatami': 's3'
 }
+
 freqs = {
   315: t315,
   433: t433
