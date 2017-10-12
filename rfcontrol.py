@@ -48,7 +48,7 @@ if len(sys.argv) != 3 or sys.argv[2]!='on' and sys.argv[2]!='off':
 # start pigpiod if not running
 pid=os.popen("ps -e|grep pigpiod").read()
 if len(pid) == 0:
-  os.system("sudo pigpiod")
+  os.system("sudo pigpiod -t0") # use the PWM clock, work with analog audio
 
 device = sys.argv[1]
 if device in aliases:
