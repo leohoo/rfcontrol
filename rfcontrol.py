@@ -3,7 +3,7 @@
 import sys
 import os
 
-t433="-t27"
+t433="-t15"
 t315="-t18"
 EXE = "_433D"
 
